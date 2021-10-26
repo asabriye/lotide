@@ -17,7 +17,7 @@ const assertEqual = function(actual, expected) {
 
 module.exports = tail;
 
-// Test Case: Check the original array 
+// Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 assertEqual(words.length, 3); // original array should still have 3 elements!
 
