@@ -22,11 +22,10 @@ const eqArrays = function(arr1, arr2) {
       }
     } else {
       answer = false
-    }
+    }c
   }
   return answer;
 
 };
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 9]), false)
-
