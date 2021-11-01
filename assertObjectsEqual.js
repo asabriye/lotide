@@ -61,3 +61,5 @@ const assertObjectsEqual = function(actual, expected) {
 // TESTS
 
 assertObjectsEqual({ a: "1", b: "2" },{ a: "1", b: "2" }); // pass
+assertObjectsEqual({ c: "1", d: "2" },{ d: "2", c: "1" }); // pass
+assertObjectsEqual({ c: "1", d: "2", f: [1,2,3,4] },{ d: "2", c: "1", f: "1,2,3,4"}); // fail
